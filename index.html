@@ -1,3 +1,4 @@
+<!-- !!!!!!!! BTW this amazing car model is designed by [1DAY_1CAD] in tinkercad :- https://www.tinkercad.com/things/knjpbMjVfWt -->
 <!DOCTYPE html>
 <html>
   <head>
@@ -6,7 +7,7 @@
   </head>
 
   <body>
-    <a-scene background="color: #000">
+    <a-scene background="color: #F2F1DD">
         <a-camera position="0 1 2"></a-camera>
 
         <!-- !!!!!!!! asset management !!!!!!!! -->
@@ -19,15 +20,16 @@
 
         <!-- creating the car component -->
         <a-entity
+        change-rotation
         obj-model="obj: #car-obj; mtl: #car-mtl"
         position="0 0.5 0"
         rotation="-90 40 0"
         scale="0.01 0.01 0.01"
       ></a-entity>
         
-        <!-- !!!!!!! i am facing error and not able to figure out why this is not working i have tried a lot mam please help me !!!!!! -->
-        <a-entity geometry="" material="" base >
-          <a-cylinder ></a-cylinder>
+        <!-- !!!!!!! i am facing error and not able to figure out why this is not working i have tried a lot, mam please help me !!!!!! -->
+        <a-entity base>
+          <a-cylinder color="#F2EDC0"></a-cylinder>
         </a-entity>
     </a-scene>
   </body>
